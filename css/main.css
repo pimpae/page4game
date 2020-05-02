@@ -28,7 +28,12 @@
   font-style: normal;
   font-variant:initial;
 }
-
+@font-face{
+  font-family: hemihead;
+  src: url(../fonts/hemihead.ttf);
+  font-style: normal;
+  font-variant:initial;
+}
  
 @font-face{
   font-family: Kanit-Regular;
@@ -104,12 +109,6 @@ a:hover{
 */ 
  
  
-.centered{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
  
 .baccaratwm-bg{
   background: url("../images/baccaratwm-bg.jpg")   ;
@@ -1163,7 +1162,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c70000', e
   background-color: rgba(182,33,35,.5);
 }
 
- 
 @media only screen and (max-width: 991px) { /* MOBILE */
   .game1 div img{
     height: 60px;
@@ -1188,6 +1186,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c70000', e
   }
   .game4 div img{
     height: 60px;
+  }
+  .login-bg{
+    background: url("../images/login2.png")   ;
+    background-size: cover;
+    background-position: top  center;  
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-color: #000;
+  }
+  .form-login{
+    margin-top: 230px;
   }
 }
 @media only screen and (min-width: 992px) { /* PC */
@@ -1215,4 +1224,88 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c70000', e
   .game4 div img{
     height: 160px;
   }
+  .login-bg{
+    background: url("../images/login2.png")   ;
+    height:90vh;
+    background-size: cover;
+    background-position: center center;  
+  }
+  .form-login{
+    margin-top: 215px;
+  }
 }
+
+
+@media only screen and (width:320px) { /* IphoenX */ 
+  .form-login{
+    margin-top: 170px;
+  }
+}
+@media only screen and (width:375px) { /* IphoenX */ 
+  .form-login{
+    margin-top: 250px;
+  }
+}
+@media only screen and (width:768px) { /* ipad */ 
+  .form-login{
+    margin-top: 340px;
+  }
+  .form-login .form-control{
+    width: 200px;
+    margin-left: 170px;
+  }
+
+}
+@media only screen and (width:834px) { /* ipad */ 
+  .form-login{
+    margin-top: 380px;
+  }
+  .form-login .form-control{
+    width: 200px;
+    margin-left: 170px;
+  }
+
+}
+
+@media only screen and (width:1024px) { /* ipad pro */ 
+  .form-login{
+    margin-top:540px;
+  }
+  .form-login .btn-submit{
+    margin-left: -20px;
+  }
+}
+@media only screen and (width:1440px) { /* ipad pro */ 
+  .form-login{
+    margin-top:340px;
+  }
+ 
+}
+
+@media only screen and (width:1440px) { /* ipad pro */ 
+  .form-login{
+    margin-top:340px;
+  }
+ 
+}
+
+
+.form-login .form-control{
+  font-family: hemihead; 
+  color: #000;
+  border: 4px solid #fd49ff;
+  border-radius: 8px;
+  margin-top: 15px;
+  height: 35px;
+}
+
+.form-login .btn-submit{
+  border:none;
+  background-color: transparent;
+}
+
+.form-login .btn-submit img{
+  width: 180px;
+  margin-top: 15px;
+}
+ 
