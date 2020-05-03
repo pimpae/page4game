@@ -47,7 +47,7 @@
                
 
                <div class="centered-cedit">
-                  <a href="#" class="btn-add-cedit">เติมเครดิต</a>
+                  <a href="#" class="btn-add-cedit" data-toggle="modal" data-target="#roomModal2">เติมเครดิต</a>
                </div>
 
             </div>
@@ -82,7 +82,7 @@
                   </div>
                   <div class="col-lg-4 mb-x">
                      <div class="centered-cedit">
-                        <a href="#" class="btn-add-cedit">เติมเครดิต</a>
+                        <a href="#" class="btn-add-cedit" data-toggle="modal" data-target="#roomModal2">เติมเครดิต</a>
                      </div>
 
                      
@@ -96,6 +96,8 @@
       <main>
          <div class="container-fluid none-pad">
             <div class="clearfix">&nbsp;</div>
+            <div class="clearfix mb-x">&nbsp;</div>
+            <div class="clearfix mb-x">&nbsp;</div>
             <div class="col  text-center">
                <img src="images/btn-game.png" class="img-fluid d-block mx-auto logo-dv">
             </div>
@@ -147,6 +149,51 @@
 
          </div>
       </main> 
+
+      <div class="modal fade roomModal2" id="roomModal2">
+         <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+    
+               <div class="modal-body">
+                  <h3>REDEEM CODE</h3>
+                  <form class="">
+                     <div class="form-group row">
+                        <label class="col-lg-3 text-right">code</label>
+                        <div class="col-lg-8">
+                           <input 
+                              type="text" 
+                              class="form-control" 
+                              id="redeemcode" 
+                              name="redeemcode">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-lg-3 text-right">&nbsp;</label>
+                        <div class="col-lg-8">
+                           <p>
+                              ****The code will be obtained from the moderator.
+                              <br>
+                              Must have an access code can see the data.                              
+                           </p>
+                        </div>
+                     </div>         
+
+                     <div class="form-group row">
+                        <label class="col-lg-3 text-right">&nbsp;</label>
+                        <div class="col-lg-8">
+                           <button type="submit" class="submitx">submit</button>
+                           <button type="button" class="closex" data-dismiss="modal">close</button>
+                        </div>
+                     </div>         
+
+
+                  </form>
+               </div>
+    
+            </div>
+         </div>
+      </div>
 
       <script type="text/javascript">
          $(document).ready(function(){

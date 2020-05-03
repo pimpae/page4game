@@ -124,8 +124,32 @@ a:hover{
   background-position: bottom center;  
    
 }
+ 
 
+.roomModal1 .modal-content{
+  background-color: transparent !important;
+}
+.roomModal1 .modal-content{
+  border:4px solid #b62123 !important;  
+  background: url("../images/bg-wa.jpg")   ;
+  background-size: 200%;
+  background-position: top center;  
+  border-radius: 40px; 
+}
+.roomModal2 .modal-content{
+  border:4px solid #0478e3 !important;  
+ 
+  border-radius: 40px; 
 
+  background: rgba(39,40,40,1);
+  background: -moz-linear-gradient(top, rgba(39,40,40,1) 0%, rgba(53,53,53,1) 66%, rgba(0,0,0,1) 67%, rgba(0,0,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(39,40,40,1)), color-stop(66%, rgba(53,53,53,1)), color-stop(67%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+  background: -webkit-linear-gradient(top, rgba(39,40,40,1) 0%, rgba(53,53,53,1) 66%, rgba(0,0,0,1) 67%, rgba(0,0,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(39,40,40,1) 0%, rgba(53,53,53,1) 66%, rgba(0,0,0,1) 67%, rgba(0,0,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(39,40,40,1) 0%, rgba(53,53,53,1) 66%, rgba(0,0,0,1) 67%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(39,40,40,1) 0%, rgba(53,53,53,1) 66%, rgba(0,0,0,1) 67%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272828', endColorstr='#000000', GradientType=0 );
+}
 
 .baccaratwm-bg2{
   background: url("../images/hb-bg1")   ;
@@ -792,7 +816,7 @@ a:hover{
 }
 
 .tb-room th, .tb-room td {
-  padding: 0.05rem;
+  padding: 0.15rem;
   vertical-align: top;
   border-top:none;
 }
@@ -805,7 +829,7 @@ a:hover{
 
 
 .tb-room2 th, .tb-room2 td {
-  padding: 0.05rem;
+  padding: 0.15rem;
   vertical-align: top;
   border-top:none;
 }
@@ -1231,7 +1255,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c70000', e
     background-position: center center;  
   }
   .form-login{
-    margin-top: 215px;
+    margin-top: 345px;
   }
 }
 
@@ -1308,4 +1332,102 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c70000', e
   width: 180px;
   margin-top: 15px;
 }
- 
+.roomModal1 .modal-body h3{
+  text-transform: uppercase;
+  font-family: browab;
+  text-align: center;
+  color: #fff;
+  font-size: 58px;
+}
+.roomModal1 .modal-body form label{
+  text-transform: uppercase;
+  font-family: DBADMANX;
+  color: #fff;
+  font-size: 48px;
+}
+.roomModal1 .modal-body form input{
+  background-color: #122522;
+  box-shadow: inset 0px 0px 20px 5px rgba(0,0,0,1);
+  border:none;
+  height:50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding-left: 30px;
+  color: #fff;
+  font-size: 24px;
+  padding-top: 0px;
+}
+.roomModal1 .modal-body form p{
+  text-align: center;
+  color: #fff;
+  font-family: DBADMANX;
+  font-size: 22px;
+  margin-top: -15px;
+}
+
+.submitx{
+  background-image: linear-gradient(to bottom, #14201e, #172624, #1b2d2a, #1e3330, #223a36);
+  border:2px solid #0ec400;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  font-family: browab;
+  text-transform: uppercase;
+  padding: 0px 25px;
+  margin-right: 15px;
+}
+.closex{
+  background-image: linear-gradient(to bottom, #14201e, #172624, #1b2d2a, #1e3330, #223a36);
+  border:2px solid #ff0000;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  font-family: browab;
+  text-transform: uppercase;
+  padding: 0px 25px;
+  margin-left: 15px;
+}
+
+.btn-add-cedit:hover{
+  color: #000;
+}
+.btn-add-cedit2:hover{
+  color: #fff;
+}
+
+
+
+.roomModal2 .modal-body h3{
+  text-transform: uppercase;
+  font-family: browab;
+  text-align: center;
+  color: #fff;
+  font-size: 58px;
+}
+.roomModal2 .modal-body form label{
+  text-transform: uppercase;
+  font-family: DBADMANX;
+  color: #fff;
+  font-size: 48px;
+}
+.roomModal2 .modal-body form input{
+  background-color: #0057b6;
+  box-shadow: inset 0px 0px 20px 5px rgba(0,0,0,1);
+  border:none;
+  height:50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding-left: 30px;
+  color: #fff;
+  font-size: 24px;
+  padding-top: 0px;
+}
+.roomModal2 .modal-body form p{
+  text-align: center;
+  color: #fff;
+  font-family: DBADMANX;
+  font-size: 22px;
+  margin-top: -15px;
+}
