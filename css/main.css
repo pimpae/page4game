@@ -1044,6 +1044,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c70000', e
   height: 100%;
   opacity: 0;
   visibility: hidden;
+  margin-top: 60px;
 }
 
 .nav-open .main-menu {
@@ -1084,7 +1085,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c70000', e
 
 .nav-button {
   position: absolute;
-  right: 0;
+  right: -15px;
   top: 0;
   z-index: 1111;
  
@@ -1115,7 +1116,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c70000', e
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #000;
+  background: #fff;
   border-radius: 9px;
   opacity: 1;
   left: 0;
